@@ -1,0 +1,485 @@
+#main {
+  background-color: rgb(228, 228, 228);
+
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 100%;
+  width: 99%;
+  background-color: rgb(228, 228, 228);
+}
+.slider-image {
+  width: 100%;
+  height: 100%;
+}
+.nones{
+  display: none;
+
+}
+.slider-container {
+  width: 100%;
+  height: 90vh;
+}
+ 
+.product-first-container {
+  position: absolute;
+  top: 51%;
+  /* background-color: aquamarine; */
+  width: 98vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-first {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 450px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+.heading-container {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.heading-text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-box-container {
+  margin: 10px;
+  margin-top: 0%;
+  margin-bottom: 5px;
+  width: 340px;
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-box {
+  width: 180px;
+  height: 100%;
+  margin: 5px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.product-img {
+  width: 100%;
+  height: 160px;
+}
+.product-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.product-second-container {
+  margin-top: 120px;
+  width: 98vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.audio-image {
+  width: 100px;
+  height: 300px;
+}
+.product-audio-container {
+  margin: 10px;
+  margin-top: 0%;
+  margin-bottom: 5px;
+  width: 340px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 244, 244);
+}
+.bottom-heading-container {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.text-bottom {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.number {
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(118, 118, 118);
+}
+
+.attributes {
+  text-decoration: none;
+}
+.up {
+  color: black;
+}
+.underline {
+  font-size: 13px;
+}
+.attributes:hover {
+  .up {
+    color: rgb(182, 19, 19);
+  }
+  .underline {
+    text-decoration: underline;
+    color: rgb(182, 19, 19);
+  }
+}
+
+.number2 {
+  margin-top: 15px;
+  font-size: 14px;
+  color: green;
+}
+.attributes:hover {
+  .number2 {
+    text-decoration: underline;
+    color: rgb(207, 29, 29);
+  }
+}
+
+.product-reward-container {
+  margin: 10px;
+  margin-top: 0%;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-reward {
+  width: 160px;
+  height: 100%;
+  margin: 5px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.product-reward-img {
+  width: 100%;
+  height: 100px;
+}
+.product-reward-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+.reward-heading {
+  height: auto;
+}
+
+.product-seler-first {
+  width: 350px;
+  height: 450px;
+  margin: 10px;
+}
+
+.product-seler {
+  width: 350px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.product-seler-add {
+  width: 350px;
+  height: 300px;
+  display: flex;
+}
+.seller-fees {
+  width: 200px;
+  height: 100%;
+}
+.seler-img-container {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-seler-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.best-add-image {
+  cursor: pointer;
+}
+
+/* Second container */
+
+.primevideo-list {
+  background-color: rgb(255, 255, 255);
+  width: 720px;
+  height: 450px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prime-video-container {
+  width: 100%;
+  height: 100%;
+}
+.prime-video {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.prime-tittle {
+  position: absolute;
+  width: 700px;
+  top: 125%;
+  left: 60px;
+}
+.prime-tittle-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.prime-tittle-text-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.prime-video-start-container {
+  position: absolute;
+  width: 210px;
+  top: 180%;
+  left: 60px;
+}
+.start {
+  width: 210px;
+  font-size: 14px;
+}
+.prime-video-start-container:hover {
+  .under {
+    text-decoration: underline;
+    color: white;
+  }
+}
+.product-smart-container {
+  margin: 10px;
+  margin-top: 0%;
+  margin-bottom: 5px;
+  width: 330px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(114, 15, 15); */
+}
+.auto {
+  height: auto;
+}
+
+.smart-watch {
+  width: 100%;
+  height: 300px;
+}
+
+.product-today-deals-container {
+  width: 98vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+.product-today-deals {
+  background-color: rgb(255, 255, 255);
+  width: 97%;
+  height: 380px;
+  margin-top: 10px;
+}
+.today-deals-container {
+  margin: 20px;
+  margin-top: 10px;
+  width: 95%;
+  margin-bottom: 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.see-all {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: green;
+}
+.see:hover {
+  .see-all {
+    color: brown;
+    text-decoration: underline;
+  }
+}
+.product-deals-container {
+  margin: 20px;
+  margin-top: 10px;
+  background-color: rgb(169, 54, 54);
+  width: 97%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: auto;
+}
+.product-deals-container:hover {
+  transition: 0.9s;
+  overflow-x: scroll;
+}
+.product-deals-box-container {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1200px;
+  margin-right: 10px;
+}
+
+.product-deals-container {
+  scrollbar-width: auto;
+  scrollbar-color: #8f54a0 #fcfcfc;
+}
+
+.product-deals-container::-webkit-scrollbar {
+  width: 11px;
+}
+
+.product-deals-container::-webkit-scrollbar-track {
+  background: #fcfcfc;
+}
+
+.product-deals-container::-webkit-scrollbar-thumb {
+  background-color: #8f54a0;
+  border-radius: 10px;
+  border: 6px solid #ffffff;
+}
+
+.product-deals-box {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 290px;
+  margin: 5px;
+}
+.img-offer-container {
+  background-color: #ededed;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-offer {
+  width: 200px;
+  height: 200px;
+}
+.dealday-container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.dealday-product-container {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.off-container {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(159, 0, 0);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.save-offer-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+.new-add {
+  background: none;
+  color: rgb(159, 0, 0);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.new-add1 {
+  background: none;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.slider-right-container{
+  position: absolute;
+  width: 80px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:100px;
+  right: 8px;
+  cursor: pointer;
+border: 2px solid rgb(255, 255, 255);
+
+}
+.slider-left-container{
+  position: absolute;
+border: 2px solid rgb(255, 255, 255);
+  width: 80px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:100px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.slider-right{
+  color: white;
+font-size: 100px;
+}
+.slider-left{
+  color: white;
+  font-size: 100px;
+
+}
+.slider-left:checked .slider-left-container{
+  background-color: #8f54a0;
+
+}

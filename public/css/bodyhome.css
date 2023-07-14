@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+.header-main {
+  height: 50px;
+  width: 100%;
+  background-color: #232f3e;
+}
+.header-container {
+  width: 100%;
+  height: 50px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-container {
+  height: 100%;
+  width: 140px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo-text {
+  color: white;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo-text:hover {
+  border: 2px solid white;
+}
+.select-address-container {
+  margin-left: 10px;
+  height: 100%;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.select-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 85%;
+}
+.select-address:hover {
+  border: 2px solid white;
+}
+.location-icon {
+  margin-right: 2px;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+.select-address-text {
+  margin-right: 5px;
+}
+.address-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.dark {
+  color: rgb(187, 187, 187);
+}
+.search-container {
+  height: 100%;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  width: 98%;
+  height: 75%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(217, 217, 217);
+  height: 100%;
+  width: 62px;
+  cursor: pointer;
+  border-right: 1px solid rgb(176, 176, 176);
+  border-radius: 10px 0 0 10px;
+}
+
+.all-text-arrow {
+  margin-left: 5px;
+  font-size: 12px;
+}
+.all-container:hover {
+  /* border: 2px solid white; */
+  /* border-right: none; */
+  background-color: rgb(184, 184, 184);
+}
+.input-container {
+  height: 100%;
+  width: 91%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search {
+  width: 90%;
+  padding: 10.9px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+.search-icon-button {
+  height: 100%;
+  width: 45px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  background-color: rgb(255, 187, 0);
+
+  cursor: pointer;
+}
+.search-icon-button:hover {
+  background-color: rgb(233, 173, 8);
+}
+.search-icon {
+  font-size: 18px;
+}
+
+.all-list-container {
+  height: 100%;
+  width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language-container {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.language:hover {
+  border: 2px solid white;
+}
+.india-image {
+  width: 40px;
+  height: 15px;
+}
+.language-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.language-icon {
+  font-size: 13px;
+  margin-right: 5px;
+  color: white;
+}
+.account-list-container {
+  width: 150px;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account-list {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.account-list:hover {
+  border: 2px solid white;
+}
+.text-up {
+  color: rgb(177, 177, 177);
+}
+.text-down {
+  color: white;
+}
+.return-order-container {
+  width: 100px;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.return-order {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.return-order:hover {
+  border: 2px solid white;
+}
+.add-card-container {
+  width: 100px;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.add-container:hover {
+  border: 2px solid white;
+}
+.icn {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.ic {
+  margin-left: 2px;
+}
+
+.second-header-container {
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-header {
+  width: 1080px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-all-container {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-all {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.second-all:hover {
+  border: 2px solid white;
+}
+.minitv-container {
+  width: 130px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.minitv {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.minitv:hover {
+  border: 2px solid white;
+}
+.sell-list-container {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sell-list {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sell-list:hover {
+  border: 2px solid white;
+}
+.vikash-pay-container {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vikash-pay {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.vikash-pay:hover {
+  border: 2px solid white;
+}
+.buy-again-container {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buy-again {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buy-again:hover {
+  border: 2px solid white;
+}
+
+.gift-card-container {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gift-card {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.gift-card:hover {
+  border: 2px solid white;
+}
+.persional-care-container {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.persional-care {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.persional-care:hover {
+  border: 2px solid white;
+}
+.gift-ideas-container {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gift-ideas {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.gift-ideas:hover {
+  border: 2px solid white;
+}
+.vikash-basics-container {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vikash-basics {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.vikash-basics:hover {
+  border: 2px solid white;
+}
+.home-improvement-container {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-improvement {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.home-improvement:hover {
+  border: 2px solid white;
+}
+
+.offer-container {
+  margin-left: 20px;
+  height: 100%;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.offer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.offer:hover {
+  border: 2px solid white;
+}
+
+.account-container-show-option {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+.account-container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 210px;
+  top: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.account-sign-up {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+   
+}
+
+.signup-link {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(202, 119, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transform: transform 1s;
+}
+.signup-link:hover{
+  background-color: rgb(124, 90, 48);
+}
+.signup-link-attributes {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-link-text {
+  color: white;
+ 
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}

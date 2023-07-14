@@ -1,0 +1,120 @@
+.product-details-main {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .prodect-details-heading-container {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+  }
+  .prodect-details-first-heading {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodect-details-company-name {
+    margin-left: 20px;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .prodect-details-company-ablable {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .unorderlist-product-details-company {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list-items-product-details-company {
+    margin: 40px;
+    list-style: none;
+  }
+  .attributes {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .return-container-image {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .prodect-return-container {
+    background-color: rgb(39, 54, 54);
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodect-details-second-heading {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .attributes-second-heading {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .prodect-details-container-prodect-company-name {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodect-details-container-prodect-image {
+    height: 100%;
+    width: 400px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodect-details-container-prodect-name {
+    height: 100%;
+    width: 600px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prodect-details-container-prodect-prices {
+    height: 100%;
+    width: 400px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
